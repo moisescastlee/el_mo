@@ -510,6 +510,10 @@ html{
     margin: 10px;
     cursor: pointer;
 }
+
+video {
+    max-width: 340px;
+}
 .portfolio .galeria .proyecto img{
     width: 100%;
     display: block;
@@ -587,7 +591,7 @@ html{
     position: relative;
     z-index: 10;
 }
-.contacto button .overlay{
+.contacto button .overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -600,7 +604,7 @@ html{
 .contacto button:hover .overlay{
     width: 100%;
 }
-.contacto .col img{
+.contacto .col img video{
     width: 100%;
 }
 .contacto .col .info{
@@ -729,4 +733,6 @@ footer .arriba{
     .contacto .fila .col{
         width: 100%;
     }
+
+   
 }
